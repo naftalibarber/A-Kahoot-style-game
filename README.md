@@ -22,6 +22,10 @@ python -m http.server 8000 --directory public
 
 אפשר להוסיף תמונה או GIF באמצעות כתובת מלאה בשדה `mediaUrl`.
 
+## חשבון מנהל
+
+במסך הבית לחצו על `ניהול חידונים` והתחברו באמצעות משתמש Email/Password שנוצר ב-Firebase Authentication. מנהל מחובר יכול ליצור, לערוך ולמחוק חידונים הנשמרים ב-Cloud Firestore. יש לפרסם ב-Firestore את הכללים שבקובץ `firestore.rules`; הם מאפשרים לכולם לקרוא חידונים ורק למשתמש מחובר לשנות אותם.
+
 ## פרסום אוטומטי
 
 ה-Workflow שב-`.github/workflows/pages.yml` מפרסם את התיקייה `public` ל-GitHub Pages בכל push לענף `main`.
