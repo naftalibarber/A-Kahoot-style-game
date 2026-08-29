@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "question": "מה המאכל האהוב ביותר על חתן יום ההולדת?",
+    "mediaUrl": "",
+    "options": ["פיצה", "פלאפל", "סושי", "פסטה"],
+    "correctAnswer": 1,
+    "timeLimit": 20
+  },
+  {
+    "id": 2,
+    "type": "boolean",
+    "question": "חתן יום ההולדת אוהב הפתעות",
+    "mediaUrl": "",
+    "options": ["כן", "לא"],
+    "correctAnswer": 0,
+    "timeLimit": 15
+  },
+  {
+    "id": 3,
+    "type": "text-input",
+    "question": "באיזו עיר נולד חתן יום ההולדת?",
+    "mediaUrl": "",
+    "options": [],
+    "correctAnswer": ["ירושלים", "ירושליים"],
+    "timeLimit": 25
+  },
+  {
+    "id": 4,
+    "type": "multiple-choice",
+    "question": "איזו עונה הוא הכי אוהב?",
+    "mediaUrl": "",
+    "options": ["חורף", "אביב", "קיץ", "סתיו"],
+    "correctAnswer": 0,
+    "timeLimit": 20
+  },
+  {
+    "id": 5,
+    "type": "boolean",
+    "question": "הוא היה מעדיף טיול בטבע על פני יום בקניון",
+    "mediaUrl": "",
+    "options": ["נכון", "לא נכון"],
+    "correctAnswer": 0,
+    "timeLimit": 15
+  },
+  {
+    "id": 6,
+    "type": "text-input",
+    "question": "מה הכינוי המשפחתי שלו?",
+    "mediaUrl": "",
+    "options": [],
+    "correctAnswer": "הכניסו כאן את הכינוי",
+    "timeLimit": 20
+  }
+]
