@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=full-image-1">
+  <link rel="stylesheet" href="styles.css?v=background-music-1">
   <link rel="stylesheet" href="lobby.css">
 </head>
 <body>
@@ -18,9 +18,11 @@
   <header class="brand"><img class="brand-logo" alt="לוגו חידון המשפחה"> <span>חידון המשפחה <b>LIVE</b></span></header>
   <main id="app" aria-live="polite"></main>
   <div id="toast" class="toast" role="status"></div>
+  <div id="musicLayer" class="music-layer" aria-hidden="true"></div>
+  <button id="musicToggle" class="music-toggle" type="button" hidden aria-label="השתקת מוזיקת הרקע">🔊</button>
   <script>document.querySelector('.brand-logo').src=document.querySelector('link[rel="icon"]').href</script>
   <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="app.js?v=question-order-1"></script>
+  <script type="module" src="app.js?v=background-music-1"></script>
 </body>
 </html>
