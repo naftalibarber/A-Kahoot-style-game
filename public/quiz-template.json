@@ -1,0 +1,32 @@
+{
+  "title": "שם החידון שלי",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "מי חוגג יום הולדת?",
+      "mediaUrl": "",
+      "options": ["אבא", "אמא", "סבא", "סבתא"],
+      "correctAnswer": 0,
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "boolean",
+      "question": "האם כולם מוכנים לחידון?",
+      "mediaUrl": "",
+      "options": ["כן", "לא"],
+      "correctAnswer": 0,
+      "timeLimit": 15
+    },
+    {
+      "id": 3,
+      "type": "text-input",
+      "question": "באיזו עיר נולד חתן יום ההולדת?",
+      "mediaUrl": "",
+      "options": [],
+      "correctAnswer": "ירושלים",
+      "timeLimit": 25
+    }
+  ]
+}
