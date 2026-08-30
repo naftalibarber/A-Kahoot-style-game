@@ -20,4 +20,4 @@ body.lobby-mode #app{height:100vh;min-height:0;padding:12px}
 .lobby-mode .player-grid.ultra-dense .player-card span{font-size:20px}
 .lobby-mode .lobby-footer{margin-top:clamp(6px,1vh,12px)}
 .lobby-mode .start-game-btn{padding:11px 28px;font-size:19px}
-@media(max-height:700px){.lobby-mode .live-badge{display:none}.lobby-mode .code-zone p,.lobby-mode .copy-link{display:none}.lobby-mode .lobby-main{margin:3px auto}.lobby-mode .qr-large b,.lobby-mode .qr-large small{display:none}.lobby-mode .player-area-head h2{font-size:20px}}
+@media(max-height:700px){.lobby-mode .live-badge{display:none}.lobby-mode .code-zone p{display:none}.lobby-mode .lobby-main{margin:3px auto}.lobby-mode .qr-large b,.lobby-mode .qr-large small{display:none}.lobby-mode .player-area-head h2{font-size:20px}}
