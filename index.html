@@ -23,6 +23,7 @@
   <script>document.querySelector('.brand-logo').src=document.querySelector('link[rel="icon"]').href</script>
   <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="app.js?v=mp4-background-audio-2"></script>
+  <script>window.addEventListener('error',e=>{document.documentElement.dataset.appError=[e.message,e.filename,e.lineno,e.colno].join('|')},true)</script>
+  <script type="module" src="app.js?v=mp4-background-audio-diagnostic-1"></script>
 </body>
 </html>
